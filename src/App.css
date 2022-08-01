@@ -1,5 +1,18 @@
 .App {
   text-align: center;
+
+  
+}
+
+.bg{
+  margin-top: 5px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.6)) , url('../public/images/pexels-anastasiya-gepp-1462631.jpg');
+  /* background-image: url(); */
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .App-logo {
@@ -36,3 +49,8 @@
     transform: rotate(360deg);
   }
 }
+
+h3,h4,h5,h6{
+  color: lightblue;
+}
+

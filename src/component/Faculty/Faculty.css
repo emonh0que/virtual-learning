@@ -1,0 +1,11 @@
+.faculty {
+    margin-top: 300px;
+    background-color: darkgray;
+    padding: 30px;
+}
+
+.faculty-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
